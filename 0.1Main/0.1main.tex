@@ -1,0 +1,70 @@
+\input{0.1Main/0.2Packages}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+     \vspace*{1cm}
+     \Huge
+       \textbf{Interpretation Library}
+       
+       
+       \vspace{0.5cm}
+       \LARGE
+        Ground Penetrating Radar, Seismic and Field Observations
+        \normalsize
+    
+       \vspace{1.5cm}
+    
+       \textbf{Lisa Julianne Nystad}
+
+       \vfill
+
+        \vfill
+        \begin{center}
+        \includegraphics[width=0.4\linewidth]{0.1Main/DUO_UiO_segl.png}
+        \label{fig:your-figure-label}
+        \end{center}
+        \vfill
+      \vfill
+            
+       Department of Geoscience\\
+       University of Oslo\\
+       Norway\\
+       May, 2025   
+    \end{center}
+\end{titlepage}
+
+
+
+\cfoot{\thepage}
+
+
+\renewcommand{\figurename}{Fig.} % figure captions with "Fig." and updates figure numbers automatically
+\renewcommand{\listfigurename}{List of Figures} % updates list of figures, add later in presentation
+
+% structure the document
+
+\tableofcontents
+\setcounter{page}{2} % starts numbering pages after the title page at page 2
+\newpage
+\listoffigures
+\newpage
+\input{0.2Introduction/0.1Int}
+
+\input{0.3GPR/01Glacial}
+\input{0.3GPR/02Fluvial}
+\input{0.3GPR/03Deltaic}
+\input{0.3GPR/06Eolian}
+\input{0.3GPR/05Lacustrine}
+\input{0.3GPR/04Igneous}
+
+\input{0.4Seismic/0.1SeisEx}
+\input{0.5Field/0.1FieldEx}
+\input{0.6RIMFAX/0.1RIMEx}
+\input{0.6RoPeR/0.1RoPeR}
+
+\newpage
+\input{References/Sources}
+\end{document}
